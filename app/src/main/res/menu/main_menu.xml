@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/All_move"
+        android:id="@+id/move"
+        app:showAsAction="never"/>
+    <item android:title="@string/All_sort"
+        android:id="@+id/sort"
+        app:showAsAction="never"/>
+    <item android:title="@string/Menu_Main_namechange"
+        android:id="@+id/name"
+        app:showAsAction="never"/>
+    <item android:title="@string/Menu_Main_backup"
+        android:id="@+id/bu"
+        app:showAsAction="never"/>
+    <item android:title="@string/Menu_Main_restore"
+        android:id="@+id/rst"
+        app:showAsAction="never"/>
+    <item android:title="@string/All_blue"
+        android:id="@+id/blue"
+        app:showAsAction="never"/>
+    <item android:title="@string/All_nofus"
+        android:id="@+id/dif"
+        app:showAsAction="always"/>
+    <item android:title="@string/All_remove"
+        android:id="@+id/del"
+        app:showAsAction="always"/>
+    <item android:title="@string/All_add"
+        android:id="@+id/add"
+        app:showAsAction="always"/>
+</menu>

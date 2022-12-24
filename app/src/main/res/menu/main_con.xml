@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/All_search"
+        android:id="@+id/sch"
+        app:showAsAction="always"/>
+    <item android:title="@string/All_index"
+        android:id="@+id/addindex"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item android:title="@string/All_up"
+        android:id="@+id/cloud"
+        app:showAsAction="never"/>
+    <item android:title="@string/Menu_Con_indexset"
+        android:id="@+id/indexset"
+        app:showAsAction="never"/>
+    <item android:title="@string/All_size"
+        android:id="@+id/size"
+        app:showAsAction="never"/>
+    <item android:title="@string/All_edit"
+        android:id="@+id/sv"
+        app:showAsAction="always"/>
+</menu>
